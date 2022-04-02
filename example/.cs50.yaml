@@ -2,7 +2,7 @@ check50:
   checks:
     hello:
       - run: python3 hello.py
-        stout: Hello, world!
+        stdout: Hello, world!
         exit: 0
     nzquizold:
       - run: python3 nzquiz.py
