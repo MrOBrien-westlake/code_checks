@@ -1,10 +1,10 @@
 check50:
   checks:
-  hello world:
+  helloworld:
   - run: python3 hello.py
     stout: Hello, world!
     exit: 0
-  nzquiz old:
+  nzquizold:
   - run: python3 nzquiz.py
     stdout: What is your name?
     stdin: simon
