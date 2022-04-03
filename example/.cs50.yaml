@@ -1,11 +1,11 @@
 check50:
   checks:
     hello:
-      - run: python3 test_files/hello.py
+      - run: python test_files/hello.py
         stdout: Hello, world!
         exit: 0
     nzquizold:
-      - run: python3 nzquiz.py
+      - run: python test_files/nzquiz.py
         stdout: What is your name?
         stdin: simon
         stdin: 40
