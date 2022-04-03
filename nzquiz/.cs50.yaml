@@ -2,9 +2,9 @@ check50:
   checks:
     quit:
       - run: python3 nzquiz.py
-        stdout: What is your name
+        stdout: What is your name? 
         stdin: Simon
-        stdout: What is your age
+        stdout: How old are you? 
         stdin: 55
-        stdin: no
+        stdin: N
         exit: 0
