@@ -1,13 +1,6 @@
 check50:
   checks:
     hello:
-      - run: python test_files/hello.py
+      - run: python3 hello.py
         stdout: Hello, world!
-        exit: 0
-    nzquizold:
-      - run: python test_files/nzquiz.py
-        stdout: What is your name?
-        stdin: simon
-        stdin: 40
-        stdin: n
         exit: 0
